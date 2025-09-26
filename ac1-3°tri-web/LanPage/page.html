@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site abacaxi</title>
+    <link rel="stylesheet" href="lPage/page.css">
+</head>
+<body>
+    <a href="\index.html">VOLTAR</a>
+    <header>
+        <h1>Lojinha Top10</h1>
+        <button class="headB" onclick="inicio()">Inicio</button>
+         <button class="headB" onclick="heheBoy()">Suporte</button>
+         <button class="headB" onclick="heheBoy()">Sac</button>
+    </header>
+
+    <div id="inicio">
+        <button class="chooseB" onclick="choose(1)">Abacaxi <img class="choose" src="lPage/abaca.png" alt=""></button>
+        <button class="chooseB" onclick="choose(2)">Danone <img class="choose" src="lPage/danonaoGrosso.png" alt=""></button>
+        <button class="chooseB" onclick="choose(3)">Paçoca <img class="choose" src="lPage/pacoca.png" alt=""></button>
+    </div>
+
+    <div id="produto">
+        <h2 id="nome"></h2>
+        <div class="compra">
+            <img id="preview" class="preview" src="" alt="Imagem do produto">
+            <input id="quantidade" type="number" value="0" placeholder="0">
+            <button class="quanMd" onclick="dim()">-</button>
+            <button class="quanMd" onclick="add()">+</button>
+            <button class="comprar">Comprar</button>
+            <button class="desc">Saiba Mais</button>
+        </div>
+    </div>
+
+    <footer>
+        <button class="ytb" onclick="ytb()"></button>
+        <button class="insta" onclick="insta()"></button>
+        <button class="rblx" onclick="rblx()"></button>
+    </footer>
+    <script src="lPage/code.js"></script>
+</body>
+</html>
