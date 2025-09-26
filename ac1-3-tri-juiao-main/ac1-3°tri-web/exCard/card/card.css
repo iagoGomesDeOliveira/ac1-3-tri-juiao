@@ -1,0 +1,73 @@
+a{
+    position: fixed;
+    background-color: rgba(139, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+body{
+    background-image: url(bbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coisa{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    cursor: zoom-in;
+    border: 3px black solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    background-color: violet;
+    width: 350px;
+    height: 500px;
+    scale:80%;
+}
+
+.cardIn{
+    border: 3px purple solid;
+    margin-top: 5%;
+    background-color: burlywood;
+    width: 310px;
+    height: 460px;
+}
+
+.icone{
+    margin-left: 10px;
+    background-image: url(larry.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    text-align: center;
+}
+
+.nome{
+    margin-left: 100%;
+}
+
+.profissao{
+    margin-left: 100%;
+    width: 200px;
+}
+
+.card:hover{
+    scale: 120%;
+    animation: scale 0.2s ease ;
+}
+
+@keyframes scale {
+    0%{
+        scale: 80%;
+        box-shadow: transparent;
+    }
+    100%{
+        scale: 120%;
+    }
+}
