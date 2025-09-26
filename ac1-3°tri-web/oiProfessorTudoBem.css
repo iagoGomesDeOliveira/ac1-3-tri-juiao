@@ -1,0 +1,70 @@
+body{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -250px;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    background-color: chartreuse;
+    animation: pingola 1s ease-in 0s infinite;
+}
+
+h2{
+    color: red;
+    animation: rgbt 0.5s infinite;
+}
+
+.botoes{
+    height: 400px;
+}
+
+a{
+    color: white;
+    font-size: 40px;
+    animation: inferninho 3s ease-in infinite;
+}
+
+@keyframes pingola{
+    0%{
+        color: black;
+    }
+    25%{
+        color: brown;
+    }
+    50%{
+       color: white;
+    }
+    100%{
+        color: black;
+    }
+}
+
+@keyframes inferninho{
+    0%{
+        font-size: medium;
+    }
+    50%{
+        font-size: 50px;
+    }
+    100%{
+        font-size: xx-small;
+    }
+}
+
+@keyframes rgbt{
+    0%{
+        color: red;
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: red;
+    }
+}
